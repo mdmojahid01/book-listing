@@ -1,0 +1,12 @@
+.contactViewDiv {
+  background-color: rgb(253, 5, 5);
+  min-height: 100vh;
+}
+.icon {
+  float: right;
+  font-size: 25px;
+}
+.icon:hover {
+  color: red;
+  font-size: 35px;
+}

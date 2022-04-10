@@ -1,0 +1,11 @@
+.bg {
+  background-color: #0988e9;
+  min-height: 100vh;
+}
+.libraryDiv {
+  text-align: center;
+}
+h1 {
+  color: white;
+  padding: 20px;
+}

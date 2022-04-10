@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+}
+
+.contactDiv {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+.formDiv {
+  background-color: black;
+}
+.form {
+  width: 50%;
+}
+.inputField {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  font-size: larger;
+  padding: 8px;
+  margin: 10px 0;
+  outline: 2px solid yellow;
+  border: none;
+  border-radius: 5px;
+}
+.btnWarning {
+  border-style: none;
+  border-radius: 5px;
+  width: 80px;
+}
+.colCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.errorMsg {
+  text-align: end;
+  color: red;
+  margin: 0;
+  float: right;
+}
+@media screen and (max-width: 1000px) {
+  .form {
+    width: 100%;
+  }
+}
